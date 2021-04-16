@@ -1,0 +1,3 @@
+web: gunicorn KhorochKhata.wsgi
+
+waitress-serve --listen=*:8000 KhorochKhata.wsgi:application

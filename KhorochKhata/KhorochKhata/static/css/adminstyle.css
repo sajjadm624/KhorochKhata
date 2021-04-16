@@ -1,0 +1,47 @@
+#header {
+    background: rgb(0, 70, 69);
+    color: #ffffff;
+}
+
+#branding h1 {
+    color: #ffffff;
+}
+
+div.breadcrumbs {
+    background: rgb(0, 90, 69);
+    padding: 10px 40px;
+    border: none;
+    font-size: 14px;
+    color: #c4dce8;
+    text-align: left;
+}
+
+.module h2, .module caption, .inline-group h2 {
+    margin: 0;
+    padding: 8px;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: left;
+    background: rgb(0, 90, 69);
+    color: #fff;
+}
+
+#content{
+    background: rgb(0, 70, 69, 0.3);
+}
+
+.toggle-nav-sidebar {
+    z-index: 20;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 23px;
+    width: 23px;
+    border-right: 1px solid #eaeaea;
+    background: rgb(0, 70, 69, 0.3);
+    cursor: pointer;
+    font-size: 20px;
+    color: #447e9b;
+    padding: 0;
+}
